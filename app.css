@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+
+.hidden{
+    display:none;
+}
+#showName{
+    color:rgb(219, 219, 219);
+}
+body{
+    color: rgb(219, 219, 219);
+    font-family: "Do Hyeon", sans-serif;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 15vh;
+}
+img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+     
+}
+#login-form{
+    position: relative;
+}
+#login-form input{
+    padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  text-align: center;
+  opacity: 0.8;
+  font-size: 30px;
+  border-radius: 5px;
+  line-height: 1.2;
+}
+#login-form input::placeholder {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  #login-form input:first-child:hover {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0.4;
+  }
+  #login-form input:first-child:focus {
+    outline: none;
+    opacity: 0.8;
+    border: solid 2px #d8cfc9;
+  }
+  
+  #login-form input:last-child:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    transition: opacity 0.2s ease-in-out;
+  }
+  #showname{
+    opacity: 0.8;
+    font-size: 30px;
+    position: relative;
+    top: -10vh;
+    margin-bottom: 0;
+  }
+  #date{
+      color:rgb(219, 219, 219);
+      position:absolute;
+    margin:0;
+    top:0;
+    left:0;
+    
+  }
+  #clock{
+    color:rgb(219, 219, 219);
+    position:absolute;
+    top:0;
+    right:10;
+    font-size: 40px;
+  }
+  #todo-form {
+    padding-top: 3vh;
+  }
+  #todo-form input {
+    font-size: 20px;
+    border: solid 1px white;
+    border-radius: 5px;
+    background-color: white;
+    width: 330px;
+    text-align: center;
+  }
+  #todo-form input::placeholder {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  #todo-form input:hover {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0.8;
+  }
+  
+  #todo-form input:focus {
+    outline: none;
+  }
+  
+  #todo-list {
+    padding-top: 1.5vh;
+  }
+  .list {
+    padding-top: 10px;
+
+  }
+  .list button {
+    margin-left: 5vh;
+    border: 0px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: rgba(5, 51, 70, 0.616);
+    color: white;
+  }
+  
+  .list-span {
+    border-bottom: 1px solid white;
+    font-size: 15px;
+  }
+  
+  .list button:hover {
+    cursor: pointer;
+    color:rgb(189, 189, 189)
+  }
+  #quote {
+    padding-top: 3vh;
+    font-size: 2;
+  }
+
+  #weather {
+    position:absolute;
+    margin:0;
+    top:0;
+    right:0;
+  }
